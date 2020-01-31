@@ -16,7 +16,7 @@ yarn install
 Conectar ao seu cluster no mongodb Atlas:
 Crie o arquivo .env na pasta raiz da aplicação.
 
-API_URL=http://localhost:3333/
+PORT=3333
 		  
 MONGO_URL=mongodb+srv://<SEU_USUARIO>:<PASSWORD>@clusterapinodejs-lcggx.mongodb.net/test?retryWrites=true&w=majority
 
