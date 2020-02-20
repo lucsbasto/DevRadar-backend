@@ -47,7 +47,7 @@ module.exports = {
     return res.send(dev);
   },
 
-  async index(req, res) {
+  async index(_req, res) {
     const devs = await Dev.find({});
     return res.send({
       devs: devs

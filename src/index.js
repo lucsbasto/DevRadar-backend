@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
@@ -7,7 +8,7 @@ const { setupWebSocket } = require('./websocket');
 const app = express();
 const server = http.Server(app);
 setupWebSocket(server);
-mongoose.connect('mongodb+srv://admin:admin@clusterapinodejs-lcggx.mongodb.net/omnistack10?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
