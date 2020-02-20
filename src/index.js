@@ -15,4 +15,4 @@ mongoose.connect(process.env.MONGO_URL, {
 app.use(cors());
 app.use(express.json());
 app.use(routes);
-server.listen(9999);
+server.listen(process.env.PORT || 3000);
