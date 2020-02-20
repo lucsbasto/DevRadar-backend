@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "nodemon src/index.js"
   },
+  "engines": {
+    "node": ">= 6.9.4",
+    "npm": ">= 4.4.0"
+  },
   "dependencies": {
     "axios": "^0.19.1",
     "cors": "^2.8.5",
