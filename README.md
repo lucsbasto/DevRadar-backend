@@ -18,7 +18,7 @@ Crie o arquivo .env na pasta raiz da aplicação.
 
 PORT=3333
 		  
-MONGO_URL=mongodb+srv://<SEU_USUARIO>:<PASSWORD>@clusterapinodejs-lcggx.mongodb.net/test?retryWrites=true&w=majority
+MONGO_URL=mongodb+srv://<SEU_USUARIO>:<SUA_SENHA>@clusterapinodejs-lcggx.mongodb.net/test?retryWrites=true&w=majority
 
 ## Rotas
 1. localhost:3333/devs (POST)
