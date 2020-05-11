@@ -32,10 +32,12 @@ PORT=3333
 MONGO_URL=mongodb+srv://**<SEU_USUARIO>**:**<SUA_SENHA>**@clusterapinodejs-lcggx.mongodb.net/test?retryWrites=true&w=majority
 ```
 
-## Rotas e Metodos
+## Rotas
+
+**POST**
 
 ```
-- localhost:3333/devs (POST)
+- localhost:3333/devs
 ```
 
 ```json
@@ -48,13 +50,19 @@ MONGO_URL=mongodb+srv://**<SEU_USUARIO>**:**<SUA_SENHA>**@clusterapinodejs-lcggx
   }
 ```
 
-```
-- localhost:3333/devs (GET)
-```
+**GET**
 
 ```
-- localhost:3333/search (GET)
+- localhost:3333/devs
 ```
+
+**GET**
+
+```
+- localhost:3333/search
+```
+
+**GET**
 
 ```
   Consulta realizada através das querys: latitude, longitude, techs
@@ -62,6 +70,8 @@ MONGO_URL=mongodb+srv://**<SEU_USUARIO>**:**<SUA_SENHA>**@clusterapinodejs-lcggx
  - http://localhost:3333/search?latitude=-10.2111874&longitude=-48.3265592&techs=angular
 ```
 
+**DELETE**
+
 ```
-- localhost:3333/devs/:github_username (DELETE)
+- localhost:3333/devs/:github_username
 ```
