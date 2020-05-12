@@ -11,7 +11,7 @@ com essa tecnologia em um raio específico.
 
 ## APP Preview
 ```
-(https://find-devs.netlify.app)[https://find-devs.netlify.app]
+[Find Dev](https://find-devs.netlify.app)
 ```
 
 ## Clonando a aplicação
