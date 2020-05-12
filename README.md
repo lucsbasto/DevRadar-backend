@@ -8,6 +8,12 @@ recebe as tecnologias e retorna todos os desenvolvedores que trabalham
 com essa tecnologia em um raio específico.
 ```
 
+
+## APP Preview
+```
+https://find-devs.netlify.app
+```
+
 ## Clonando a aplicação
 
 Clone a aplicação através do comando:
